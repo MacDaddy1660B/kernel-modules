@@ -5,6 +5,13 @@
 #include <linux/proc_fs.h>
 #include <linux/seq_file.h>
 
+/* Do a dmesg --follow to see messages being printed to the
+ * kernel buffer.
+ *
+ * Do a cat /proc/gammodule to read a special message printed
+ * by this module.
+ */
+
 // Module metadata
 MODULE_AUTHOR("Gordon A MacDonald");
 MODULE_DESCRIPTION("GAM kernel module");
